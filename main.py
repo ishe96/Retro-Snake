@@ -1,7 +1,7 @@
-from sngame import Game
+from sngame import *
 
 g = Game()
 
 while g.running:
     g.now_menu.display_menu()
-    g.game_loop()
+    g.snk_game_loop()
